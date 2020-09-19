@@ -8,15 +8,31 @@
 
 ## 使用
 
-* wxml
+- app.json
 
-```wxml
+```json
+{
+  // ...
+  "plugins": {
+    // ...
+    "SPMinaNavPlugin": {
+      "version": "0.0.1",
+      "provider": "wx7710a29f1fb62aa7"
+    }
+  },
+  // ...
+}
+```
+
+- wxml
+
+```xml
 <navigator id="nav" url="plugin://SPMinaNavPlugin/discover">
   Go to Plugin page
 </navigator>
 ```
 
-* js
+- js
 
 ```js
 var plugin = requirePlugin("SPMinaNavPlugin");
