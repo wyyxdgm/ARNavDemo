@@ -2,6 +2,24 @@
 
 ![](./logo.jpg)
 
+## 最新版本
+
+版本号：0.1.0 
+
+更新内容：见【更新日志】
+
+```json
+// app.json
+{
+  "plugins": {
+    "SPMinaNavPlugin": {
+      "version": "0.1.0",
+      "provider": "wx7710a29f1fb62aa7"
+    }
+  },
+}
+```
+
 ## 准备
 
 * [申请地图 key](https://lbs.qq.com/service/webService/webServiceGuide/webServiceOverview)
@@ -10,7 +28,7 @@
 
 ## 使用
 
-1. 全局配置插件
+#### 1. 全局配置插件
 
 ```json
 // app.json
@@ -29,7 +47,7 @@
 }
 ```
 
-2. 打开页面之前需要先设置好地图秘钥
+#### 2. 打开页面之前需要先设置好地图秘钥
 
 ```js
 // app.js
@@ -43,7 +61,7 @@ App({
 });
 ```
 
-3. 页面跳转插件
+#### 3. 页面跳转插件
 
 ```xml
 <!-- some-page.wxml -->
